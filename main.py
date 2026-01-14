@@ -37,7 +37,7 @@ def main():
     print(f"Output directory: {OUTPUT_DIR}\n")
 
     # Run experiment
-    results = run_full_experiment(n_runs=20)
+    results = run_full_experiment(n_runs=30, num_rounds=200)
 
     # Analysis
     analyze_hypotheses(results)
